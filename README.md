@@ -1,12 +1,30 @@
-# React + Vite
+# Ex1 – React Props Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project built as part of a learning exercise to practice **passing data between components using props**.
 
-Currently, two official plugins are available:
+## 🧩 What It Does
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project contains:
 
-## Expanding the ESLint configuration
+- A **parent component** that holds a value (e.g. text)
+- A **child component** that receives this value via `props` and displays it
+- It demonstrates **unidirectional data flow** in React: from parent → child
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Example: A user types something in one component, and it is displayed in another component through prop-passing.
+
+## 🛠 Technologies
+
+- React (with Vite)
+- JavaScript (ES6+)
+- Material UI (optional styling)
+- CSS modules or plain CSS
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/ToviHochhauser/Ex1-props.git
+cd Ex1-props
+npm install
+npm run dev
